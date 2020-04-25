@@ -1,4 +1,4 @@
-# Rebuild Bombe Machine Enigma 
+# Rebuild Bombe Machine (How to encrypte Enigma machine?) 
 
 ![](images/enigma.jpg)
 
