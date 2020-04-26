@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/supersu/github/enigma/main.cpp">
+		<Unit filename="/Users/supersu/github/enigma/src/Rotor.cpp">
+			<Option target="enigma"/>
+		</Unit>
+		<Unit filename="/Users/supersu/github/enigma/src/Rotor.h">
+			<Option target="enigma"/>
+		</Unit>
+		<Unit filename="/Users/supersu/github/enigma/src/main.cpp">
 			<Option target="enigma"/>
 		</Unit>
 		<Unit filename="/Users/supersu/github/enigma/CMakeLists.txt">

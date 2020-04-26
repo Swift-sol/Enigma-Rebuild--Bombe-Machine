@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/enigma.dir/main.cpp.o"
+  "CMakeFiles/enigma.dir/src/Rotor.cpp.o"
+  "CMakeFiles/enigma.dir/src/main.cpp.o"
   "enigma"
   "enigma.pdb"
 )

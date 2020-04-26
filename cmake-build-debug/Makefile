@@ -123,32 +123,59 @@ enigma/fast:
 	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/build
 .PHONY : enigma/fast
 
-main.o: main.cpp.o
+src/Rotor.o: src/Rotor.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Rotor.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Rotor.cpp.o:
+	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/src/Rotor.cpp.o
+.PHONY : src/Rotor.cpp.o
 
-main.i: main.cpp.i
+src/Rotor.i: src/Rotor.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Rotor.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Rotor.cpp.i:
+	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/src/Rotor.cpp.i
+.PHONY : src/Rotor.cpp.i
 
-main.s: main.cpp.s
+src/Rotor.s: src/Rotor.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Rotor.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Rotor.cpp.s:
+	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/src/Rotor.cpp.s
+.PHONY : src/Rotor.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/enigma.dir/build.make CMakeFiles/enigma.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... enigma"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Rotor.o"
+	@echo "... src/Rotor.i"
+	@echo "... src/Rotor.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
