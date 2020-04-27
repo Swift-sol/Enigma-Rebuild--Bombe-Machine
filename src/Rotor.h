@@ -15,9 +15,16 @@ private:
     int _initialPosition;
 public:
     Rotor(string alphabet_configuration);
+
     void showRotor();
+
     void setInitialPosition(int initialPosition);
-    string encrypt(string message);
+
+    void encrypt(string message, string alphabet);
+
+    void rotateRotor();
+
+    char getLetter(int position);
 };
 
 
